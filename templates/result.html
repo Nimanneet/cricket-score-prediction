@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>First Innings Score Predictor</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='ipl-favicon.ico') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body style="background: linear-gradient(342deg, #f97f31, #244590); background-size: 400% 400%;-webkit-animation: AnimationName 6s ease infinite;
+-moz-animation: AnimationName 6s ease infinite;
+animation: AnimationName 6s ease infinite;">
+
+    <!-- Website Title -->
+    <div class="container">
+        <h1 class='container-heading'><span class='heading_first'>First Innings Score Predictor for </span><span
+                class="heading_second">Indian Premier League (IPL)</span></h2>
+            <div style="margin-top: 10px;">
+                <p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+            </div>
+    </div>
+    <!-- Prediction Area -->
+    <center>
+        <div class="results" style="justify-content: space-evenly;">
+            <h3>The final predicted score (range): {{ lower_limit }} to {{ upper_limit }}</h3>
+        </div>
+        <br>
+        <br><br><br>
+        <a href="https://hiamninder.herokuapp.com/" style="color: #fff!important;
+							padding: 10px 20px;
+							background: #000000;
+							margin: 20px 0;
+							display: inline-block;border-radius: 15px;">Go to Home</a>
+    </center>
+
+
+
+</body>
+
+</html>
