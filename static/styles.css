@@ -2,8 +2,7 @@ html,body{
 	height: 100%;
 	width: 100%;
 	margin: 0;
-
-	
+	text-align: center;	
 }
 
 /* Website Title */
@@ -37,6 +36,7 @@ html,body{
 	height: 30px;
 	border-radius: 3px;
 	border: 0;
+	display: inline-block;
 	text-align: center;
 	-webkit-box-shadow: inset 7px 3px 16px -10px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 7px 3px 16px -10px rgba(0,0,0,0.75);
