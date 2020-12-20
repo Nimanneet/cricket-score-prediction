@@ -1,0 +1,25 @@
+Model Outputs
+
+1. Linear Regression:
+    Mean :  18.018918472945927
+    Standard Deviation :  1.3044094824714392
+
+2. Logistic Regression
+    Mean :  22.771022410070337
+    Standard Deviation :  4.169112947845575
+
+3.  DecisionTree Regressor
+    Mean :  25.36757391704483
+    Standard Deviation :  1.576299532903746
+
+4.  Random Forest
+    Mean :  20.13595845388412
+    Standard Deviation :  1.6482706626225
+
+5.  Ridge 
+    Mean :  18.013115796989045
+    Standard Deviation :  1.3053539560335117
+
+6.  Lasso
+    Mean :  17.869261251255367
+    Standard Deviation :  1.2623717170175306
