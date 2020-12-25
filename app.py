@@ -63,9 +63,13 @@ def predict():
         runs_in_prev_5 = int(request.form['runs_in_prev_5'])
         wickets_in_prev_5 = int(request.form['wickets_in_prev_5'])
         
+        # Overs, Runs, Wickets, Runs_in_prev_5, Wickets_in_prev_5
         temp_array = temp_array + [overs, runs, wickets, runs_in_prev_5, wickets_in_prev_5]
         
+        # Converting into numpy array
         data = np.array([temp_array])
+
+        # Prediction
         my_prediction = int(regressor.predict(data)[0])
               
         return render_template('result.html', lower_limit = my_prediction-10, upper_limit = my_prediction+5)
