@@ -4,4 +4,4 @@ It is Built mainly with Python and Flask, Deployed using Heroku.
 
 Link to Demo :
 
-[https://cricket-score-by-1801223.herokuapp.com/]
+[https://cricket-score-prediciton.herokuapp.com/]
